@@ -6,13 +6,19 @@
 /*   By: rorollin <rorollin@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/23 15:45:16 by rorollin          #+#    #+#             */
-/*   Updated: 2026/02/23 16:09:17 by rorollin         ###   ########.fr       */
+/*   Updated: 2026/02/23 16:15:46 by rorollin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "Harl.hpp"
 #include <iostream>
 
+const Harl::Level Harl::_levels[4] = {
+	{"DEBUG", &Harl::debug},
+	{"INFO", &Harl::info},
+	{"WARNING", &Harl::warning},
+	{"ERROR", &Harl::error}
+};
 
 void	Harl::debug(void)
 {
@@ -36,12 +42,6 @@ void	Harl::error(void)
 	std::cout << "This is unacceptable! I want to speak to the manager now.\n";
 }
 
-const Harl::Level Harl::_levels[4] = {
-	{"DEBUG", &Harl::debug},
-	{"INFO", &Harl::info},
-	{"WARNING", &Harl::warning},
-	{"ERROR", &Harl::error}
-};
 
 void	Harl::complain(std::string level)
 {
