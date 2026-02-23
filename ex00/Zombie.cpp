@@ -6,7 +6,7 @@
 /*   By: rorollin <rorollin@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/22 23:23:56 by rorollin          #+#    #+#             */
-/*   Updated: 2026/02/23 02:12:29 by rorollin         ###   ########.fr       */
+/*   Updated: 2026/02/23 11:13:36 by rorollin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -16,7 +16,7 @@
 
 Zombie::Zombie()
 {
-	print_default_constructor(_name);
+	print_default_constructor();
 }
 
 Zombie::Zombie(std::string name) : _name(name)
@@ -34,9 +34,9 @@ void Zombie::announce(void)
 	std::cout << this->_name << ": BraiiiiiiinnnzzzZ...\n";
 }
 
-void	Zombie::print_default_constructor(std::string className)
+void	Zombie::print_default_constructor()
 {
-	std::cout << "Zombie : " << className << " constructor called\n";
+	std::cout << "Zombie : Default constructor called\n";
 }
 
 void	Zombie::print_parametrized_constructor(std::string className)

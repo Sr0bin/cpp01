@@ -6,7 +6,7 @@
 /*   By: rorollin <rorollin@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/22 23:24:34 by rorollin          #+#    #+#             */
-/*   Updated: 2026/02/22 23:48:28 by rorollin         ###   ########.fr       */
+/*   Updated: 2026/02/23 11:13:27 by rorollin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ class Zombie
 {
 private:
 	std::string _name;
-	void		print_default_constructor(std::string className);
+	void		print_default_constructor();
 	void		print_parametrized_constructor(std::string className);
 	void		print_destructor(std::string className);
 public:

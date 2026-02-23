@@ -6,7 +6,7 @@
 #    By: rorollin <rorollin@student.42lyon.fr>      +#+  +:+       +#+         #
 #                                                 +#+#+#+#+#+   +#+            #
 #    Created: 2026/01/19 15:44:49 by rorollin          #+#    #+#              #
-#    Updated: 2026/02/23 02:07:26 by rorollin         ###   ########.fr        #
+#    Updated: 2026/02/23 11:12:10 by rorollin         ###   ########.fr        #
 #                                                                              #
 # **************************************************************************** #
 
@@ -16,7 +16,7 @@ NAME = brainz
 
 SOURCES_DIR = .
 
-SOURCES_NAME = main.cpp Zombie.cpp newZombie.cpp randomChump.cpp
+SOURCES_NAME = main.cpp Zombie.cpp zombieHorde.cpp
 
 #---------------------------
 
