@@ -6,7 +6,7 @@
 /*   By: rorollin <rorollin@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/23 15:31:59 by rorollin          #+#    #+#             */
-/*   Updated: 2026/02/23 16:03:22 by rorollin         ###   ########.fr       */
+/*   Updated: 2026/02/23 16:27:04 by rorollin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -19,7 +19,7 @@ class Harl
 private:
 	typedef struct Level
 	{
-		const std::string name;
+		const char *name;
 		void	(Harl::*fn)(void);
 	} Level;
 	static const Level _levels[4];

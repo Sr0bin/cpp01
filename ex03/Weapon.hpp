@@ -6,7 +6,7 @@
 /*   By: rorollin <rorollin@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/23 11:30:36 by rorollin          #+#    #+#             */
-/*   Updated: 2026/02/23 12:06:56 by rorollin         ###   ########.fr       */
+/*   Updated: 2026/02/23 16:19:08 by rorollin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -23,7 +23,7 @@ public:
 	Weapon();
 	Weapon(std::string type);
 	~Weapon();
-	const std::string &getType();
+	const std::string &getType() const;
 	void setType(std::string type);
 
 };

@@ -6,7 +6,7 @@
 /*   By: rorollin <rorollin@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/23 12:51:50 by rorollin          #+#    #+#             */
-/*   Updated: 2026/02/23 14:13:24 by rorollin         ###   ########.fr       */
+/*   Updated: 2026/02/23 16:28:26 by rorollin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -25,7 +25,7 @@ std::string	search_and_replace(const std::string &instr,
 	size_t r_len = replace.length();
 	size_t s_len = search.length();
 
-	if (search == replace)
+	if (search == replace || search == "")
 		return (outstr);
 	index = outstr.find(search, 0);
 	while (index != std::string::npos)

@@ -6,7 +6,7 @@
 /*   By: rorollin <rorollin@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/23 11:32:42 by rorollin          #+#    #+#             */
-/*   Updated: 2026/02/23 12:50:09 by rorollin         ###   ########.fr       */
+/*   Updated: 2026/02/23 16:19:08 by rorollin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
@@ -27,7 +27,7 @@ Weapon::~Weapon()
 {
 	std::cout << "Weapon Destructor called\n";
 }
-const std::string &Weapon::getType()
+const std::string &Weapon::getType() const
 {
 	return (_type);
 }
