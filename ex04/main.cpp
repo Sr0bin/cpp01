@@ -6,12 +6,11 @@
 /*   By: rorollin <rorollin@student.42lyon.fr>      +#+  +:+       +#+        */
 /*                                                +#+#+#+#+#+   +#+           */
 /*   Created: 2026/02/23 12:51:50 by rorollin          #+#    #+#             */
-/*   Updated: 2026/02/23 16:28:26 by rorollin         ###   ########.fr       */
+/*   Updated: 2026/02/23 16:29:31 by rorollin         ###   ########.fr       */
 /*                                                                            */
 /* ************************************************************************** */
 
 #include "error.hpp"
-#include <ios>
 #include <iostream>
 #include <fstream>
 #include <iterator>
