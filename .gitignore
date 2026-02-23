@@ -1,0 +1,10 @@
+*.a
+*.o
+*.d
+*.txt
+.obj/
+.gitmodules
+.gdb_history
+compile_commands.json
+.cache
+.gdbinit
